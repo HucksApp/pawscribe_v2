@@ -1,0 +1,16 @@
+
+
+.folder-acess-input-cover{
+    margin-bottom: 16 
+}
+
+.folder-acess-buttons-cover{
+    display: flex;
+     gap: 8;
+     padding-top: 2%;
+     margin-bottom: 16;
+}
+
+.folder-acess-modal-title{
+    font-family:'Londrina solid';
+}

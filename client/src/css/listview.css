@@ -1,0 +1,20 @@
+.filelist-filecover{
+    display: flex;
+    border: solid blue;
+    min-width: 60vw;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: var(--text-primary);
+    font-family: 'raleway';
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.filelist-filecover > div:first-child{
+    flex: 1;
+}
+
+.filelist-filecover > div:last-child{
+    flex: 2;
+}

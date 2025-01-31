@@ -1,0 +1,22 @@
+
+.tool-kit-compartment{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tool-kit-compartment>*{
+   padding-left: 3%;
+}
+.tool-kit-compartment>span{
+    font-family: 'Londrina solid';
+    color: var(--text-primary);
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+.tool-kit-compartment-icon{
+    color:var(--button-primary-bg-color);
+}
+
+.tool-kit-modal{
+    font-family: 'Londrina Sketch'; 
+}

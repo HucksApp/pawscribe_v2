@@ -1,0 +1,90 @@
+.draggable-toggle {
+    position: fixed;
+    bottom: 5vh;
+    right: 10vw;
+     /* background-color: var(--band-color)  !important; */
+    z-index: 5000;
+    cursor: grab;
+  }
+.draggable-toggle-button{
+    background-color: var(--band-color)  !important;
+    color: var(--text-primary) !important;
+
+  }
+  .draggable-toggle-button:hover{
+    background-color: var(--button-primary-hvbg-color) !important;
+  }
+
+  .draggable-toggle:active {
+    cursor: grabbing;
+  }
+  .terminal-stack-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: var(--background-paper-light);
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 900;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .stack-controls {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .ant-collapse {
+    background-color: transparent;
+    background-color: var(--background-paper-light);
+  }
+  
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    /* font-family: "Londrina Solid"; */
+    border-radius: 5px;
+    padding: 0 8px;
+  }
+  .ant-collapse-item {
+    font-weight: 1000;
+    background-color: var(--app-bar-bg)!important;
+  }
+
+  
+  .ant-btn-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .terminal-stack-panel{
+    overflow-y: scroll;
+  }
+
+  .panel-header-text{
+    font-family: "Londrina Solid";
+  }
+
+
+  /* Resize Handle */
+.resize-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  cursor: row-resize;
+  background-color: transparent;
+}
+.resize-handle:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

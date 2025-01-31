@@ -1,0 +1,21 @@
+/* .search-select{
+   min-width: 8vw;
+    color: blue;
+    background-color: aquamarine !important;
+    border: solid red;
+} */
+
+.search-select-popup{
+    width: auto;
+    background-color: var(--background-default);
+    color: var(---text-secondary) !important;
+
+}
+
+.search-select .ant-select-selector {
+    background-color: var(--background-default) !important; /* Force the background color */
+    border: none !important; /* Ensure border styling is applied */
+    color: var(---text-secondary) !important; /* Text color */
+    min-width: 8vw;
+    
+}

@@ -1,0 +1,21 @@
+
+.dashboard{
+    background-color: var(--background-default);
+}
+
+.dashboard-slide.hidden {
+    transform: translateX(-100%); /* Slide off-screen */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .dashboard-slide {
+    z-index: 500;
+    transform: translateX(0); /* Default position */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+.imageSizeSlider{
+    width: 10vw;
+}
+

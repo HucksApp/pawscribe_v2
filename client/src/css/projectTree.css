@@ -1,0 +1,113 @@
+/* The main container of the ProjectTree component */
+.project-tree {
+  display: flex; /* Align items in a row for a flexible layout */
+  align-items: flex-start; /* Align items to the top (flex-start) */
+  justify-content: flex-start; /* Align items to the left */
+  height: 100%; /* Full height to match its parent */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  min-width: 18vw; /* Set a minimum width for the tree container */
+  border-right: 0; /* Remove the right border */
+  color: var(--text-secondary); /* Use a secondary text color */
+  font-weight: 1000; /* Make text bold */
+  background-color: var(--app-bar-bg); /* Set background color from app theme */
+  font-family: "Londrina Solid"; /* Use the Londrina Solid font for text */
+}
+
+
+.project-tree-menu {
+  z-index: 2000;
+  background-color: var(--background-paper);
+  color: var(--text-primary);
+  font-family: "Raleway";
+}
+
+.project-tree-menu-item{
+        display: flex;
+        align-items: center;
+        color: var(--text-secondary) !important;
+}
+
+.project-tree-menu-item:hover{
+        color: var(--band-color) !important;
+}
+
+/* .ant-tree-treenode:hover {
+    background-color: lightgreen;
+    color: black; 
+} */
+
+/* Customizing the appearance of a selected tree node */
+.ant-tree-treenode.ant-tree-treenode-selected,
+.ant-tree-draggable-icon {
+  color: var(--button-primary-hvtext) !important;
+}
+
+.ant-tree-treenode.ant-tree-treenode-selected:hover {
+  color: var(--button-secondary-bg-color) !important;
+}
+
+.project-tree-menu-item-div{
+        display: flex;
+        font-weight: 1000;
+        font-size: 1em;
+}
+
+/* 
+ant-tree-treenode ant-tree-treenode-selected ant-tree-treenode-leaf-last ant-tree-treenode-draggable ant-tree-treenode-leaf */
+
+/* Adjusting hover state for tree nodes */
+/* .ant-tree-treenode:hover {
+    background-color: lightgreen;
+    color: black; 
+} */
+/* Styling tree node icons (folders or files) */
+/* .ant-tree-node-content-wrapper .ant-tree-icon__custom {
+    font-size: 1.5em; 
+    margin-right: 8px;
+    color: var(--text-secondary);
+} */
+
+/* Styling leaf nodes (files) */
+.ant-tree-treenode-leaf .ant-tree-title {
+  color: var(--text-secondary);
+}
+
+.ant-tree-treenode:hover {
+  background-color: var(--band-color);
+}
+
+/* Styling folder nodes */
+.ant-tree-treenode:not(.ant-tree-treenode-leaf) .ant-tree-title {
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+/* Adjust the padding and spacing between nodes */
+.ant-tree-node-content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5% 1%;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.ant-tree-node-content-wrapper:hover {
+}
+
+/* Custom scrollbar styling for the tree component */
+/* .project-tree::-webkit-scrollbar {
+  width: 8px; 
+} */
+
+/* .project-tree::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 128, 0, 0.6); 
+  border-radius: 4px;
+} */
+
+/* .project-tree::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 128, 0, 0.8);
+} */
+
+/* .project-tree::-webkit-scrollbar-track {
+  background-color: #f0f0f0; 
+} */

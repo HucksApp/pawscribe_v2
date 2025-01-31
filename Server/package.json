@@ -1,0 +1,26 @@
+{
+  "name": "pawscribe-v2",
+  "version": "2.0.0",
+  "description": "document management, coding, software development",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Hucks",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "bcrypt": "^5.1.1",
+    "bull": "^4.16.4",
+    "chokidar": "^4.0.3",
+    "dockerode": "^4.0.2",
+    "express": "^4.21.2",
+    "fs-extra": "^11.2.0",
+    "ioredis": "^5.4.1",
+    "logging": "^3.3.0",
+    "mongoose": "^8.9.2",
+    "socket.io": "^4.8.1",
+    "winston": "^3.17.0"
+  }
+}

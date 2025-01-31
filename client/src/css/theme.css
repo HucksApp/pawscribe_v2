@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swapfamily=Dancing+Script:wght@400..700&family=Londrina+Sketch&display=swap&display=swap&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+
+
+/* Light Theme Variables */
+:root {
+  /* background */
+  --primary-color:#F4F4F4;
+  --secondary-color: #f1f1f1; /* Soft off-white */
+  --background-default: #d8d8d8; /* Gentle background for brightness */
+  --background-paper: #eaeaea; /*#f4f4f4; Slightly darker for panels/cards */
+  --background-paper-light: #ddd;
+  --modal-overlay-color: rgba(0, 0, 0, 0.7);
+
+  --app-bar:  #616161;
+
+  /* Text */
+  --text-primary: #3c3c3c; /* Darker grey for main text */
+  --text-secondary: #626262; /* Subtle soft grey for secondary text */
+  
+
+  --active-color: #ff7f50; /* Same coral for active state */
+  --band-color: #1e90ff;
+  --chat-message-sent:linear-gradient(135deg, #D1E8FF, #69C0FF);
+  --chat-message-recieved:  linear-gradient(135deg, #FFF2CC, #FFAA00);
+
+  /* Button */
+  --button-primary-bg-color: #626262 ; /* Vibrant purple for button background */
+  --button-secondary-bg-color: #9c27b0; /* Clean white for secondary buttons */
+  --button-tertiary-bg-color: #ff7f50; /* Clean white for secondary buttons */
+ --footer-base-color: linear-gradient(90deg, #ff7f50, #9c27b0, #1e90ff) 1;
+
+    /* button text */
+    --button-text-color: #ffffff; /* White for button text */
+
+  /* Button hover */
+  --button-primary-hvtext: #ff7f50;
+  --button-secondary-hvtext: #9c27b0;
+
+  --button-primary-hvbg-color: #ffffff; /* Clean white for secondary buttons */
+
+
+
+
+
+
+  --list-bg-color: #fefefe; /* Crisp white for lists */
+  --divider-color: #e0e0e0; /* Soft grey for dividers */
+  --form-bg-color: rgba(255, 245, 250, 0.95); /* Soft pinkish tint for forms */
+  --app-bar-bg: #f7f7f7; /* Bright and clean app bar */
+  --app-bar-color: #484848; /* Neutral grey for text and icons */
+  
+
+
+
+
+
+  /* Additional Colors for Online IDE Components */
+  --editor-background: #f9f9f9; /* Light grey background for the code editor */
+  --editor-text-color: #303030; /* Dark grey text color for code */
+  --editor-cursor-color: #ff7f50; /* Coral color for cursor */
+  --terminal-background: #ffffff; /* White background for terminal */
+  --terminal-text-color: #303030; /* Dark text in terminal */
+  --file-bg-color: #ffffff; /* White background for file explorer */
+  --folder-bg-color: #f0f0f0; /* Light grey for folder items */
+  --sidebar-bg-color: #ffffff; /* Clean white for sidebar */
+  --active-tab-color: #9c27b0; /* Active tab color */
+  
+  --bg-img: url('../images/back_light.svg');
+  --bg-img-size: contain;
+  --bg-img-position: center;
+  --bg-img-repeat: no-repeat;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --primary-color: #121212; /* Deep black for rich background */
+  --secondary-color: #1e1e1e; /* Subtle dark grey for contrast */
+  --background-default: #181818; /* Neutral dark grey background */
+  --background-paper: #222222; /* Slightly brighter grey for panels/cards */
+  --footer-base-color: linear-gradient(90deg, #ffd369, #9b7efa,#ff7f50) 1;
+  --text-primary: #eaeaea; /* Bright, clear white-grey for text */
+  --text-secondary: #b0b0b0; /* Softer grey for secondary text */
+  --button-primary-hvbg-color: #1d1d1d;
+  --button-text-color: #181818;
+  --button-primary-hvtext:#9b7efa;
+  --band-color: #ff7f50;
+  --background-paper-light: #1E1E1E;
+  --button-primary-bg-color: #9b7efa; /* Soft purple for button background */
+  --button-secondary-bg-color: #262626; /* Neutral dark grey for secondary buttons */
+  --button-text-color: #ffffff; /* White for button text */
+  --button-hover-color: #ffd369; /* Golden yellow for hover effect */
+  --active-color: #ffd369; /* Same golden yellow for active state */
+
+  --chat-message-sent:linear-gradient(135deg, #1E3A5F, #4789F5);
+  --chat-message-recieved:  linear-gradient(135deg, #3E2F1C, #D0A560);;
+
+
+  --list-bg-color: #1c1c1c; /* Rich dark grey for lists */
+  --divider-color: #333333; /* Muted grey for dividers */
+  --form-bg-color: rgba(40, 40, 40, 0.95); /* Slightly transparent dark grey */
+  --app-bar-bg: #101010; /* Deep dark for app bar */
+  --app-bar-color: #d6d6d6; /* Light grey for app bar text and icons */
+  
+  /* Additional Colors for Online IDE Components */
+  --editor-background: #1e1e1e; /* Dark grey background for the code editor */
+  --editor-text-color: #eaeaea; /* Light grey text color for code */
+  --editor-cursor-color: #ffd369; /* Golden yellow cursor */
+  --terminal-background: #262626; /* Dark background for terminal */
+  --terminal-text-color: #eaeaea; /* Light text in terminal */
+  --file-bg-color: #262626; /* Dark grey background for file explorer */
+  --folder-bg-color: #303030; /* Dark grey for folder items */
+  --sidebar-bg-color: #101010; /* Very dark sidebar */
+  --active-tab-color: #ffd369; /* Active tab color in dark theme */
+  
+  --bg-img: url('../images/back_dark.svg');
+  --bg-img-size: contain;
+  --bg-img-position: center;
+  --bg-img-repeat: no-repeat;
+}
+
+
+/* .ant-slider-track{
+  background-color: red;
+} */
+
+
+.ant-select{
+  background-color: var(--background-paper);
+}
+
+.ant-modal-title {
+  background-color: var(--background-paper); /* Use your custom variable */
+  color: var(--text-secondary);
+}
+
+.ant-dropdown-menu-title-content{
+  font-weight: 1000;
+  font-family: "Raleway";
+  color: var(--text-primary);
+}
+
+.form_item{
+  color: var(--text-secondary);
+  padding-bottom: 2%;
+  font-weight: 1000;
+  font-size: 1.2em;
+
+}
+
+button {
+  background-color: var(--button-primary-bg-color);
+  color: var(--button-text-color);
+  border: none;
+  font-weight: 1000;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-primary-hvbg-color);
+  color: var(--button-primary-hvtext);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+button.icon-button>*:hover{
+  color: var(--band-color);
+}
+
+button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+button:hover:disabled{
+ opacity: 0.5;
+}
+
+.button-icon{
+  font-size: 1.5em;
+  font-weight: 1000;
+  fill: var(--text-primary);
+  color: var(--text-primary);
+}
+
+.ant-input{
+  font-weight: 1000;
+  font-family: 'Raleway';
+}
+
+span.ant-pagination-item-ellipsis > *{
+  color: var(--text-primary) ;
+}
+.ant-menu-item-selected {
+  background-color: var(--button-primary-bg-color) !important;
+}
+
+
+.button-icon:hover{
+  fill: var(--band-color);
+  color: var(--band-color);
+}
+
+body {
+  background-color: var(--background-default);
+  /* color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease; */
+}
+/* 
+h1, h2 {
+  background-color: var(--background-default);
+}
+
+h4, h5 {
+  color: var(--background-default);
+}
+
+
+
+.list-item {
+  background-color: var(--list-bg-color);
+  font-weight: 1000;
+  box-sizing: border-box;
+}
+
+.list-item-text-primary {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.list-item-text-secondary {
+  font-size: 8px;
+  color: var(--text-secondary);
+  font-weight: bold;
+}
+
+.text-field, .select-field, .form-group {
+  padding: 4px;
+  background-color: var(--form-bg-color);
+  font-weight: 1000;
+  border-radius: 5px;
+}
+
+.divider {
+  color: var(--divider-color);
+  font-weight: 1000;
+}
+
+.app-bar {
+  background-color: var(--app-bar-bg);
+  color: var(--app-bar-color);
+}
+
+.app-bar img {
+  height: 40px;
+  margin-right: 10px;
+} */
+
+/* Background Image for Body */
+body[data-theme="light"], body[data-theme="dark"] {
+  /* background-image: url('../assets/back2.png'); */
+  /* background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+/* ant-slider icon-button-slidder css-dev-only-do-not-override-1x9op7x ant-slider-horizontal */
+.ant-slider-step{
+  background-color: var(--background-paper) !important;
+}
+
+/* Custom scrollbar styling for the tree component */
+::-webkit-scrollbar {
+   display: none;
+}

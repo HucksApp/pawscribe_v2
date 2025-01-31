@@ -1,0 +1,15 @@
+.addFolder-modal{
+    font-family: 'Londrina Sketch'; 
+    color: var(--text-primary);
+    font-weight: 1000;
+}
+
+.addFolder-form-item{
+    font-family: 'Londrina solid'; 
+    color: var(--text-primary);
+    font-weight: 1000;
+}
+
+.addFolder-form-item-input{
+    font-family: 'Roboto'; 
+}

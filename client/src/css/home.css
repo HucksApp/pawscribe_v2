@@ -1,0 +1,92 @@
+.home {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    background: -webkit-linear-gradient(
+        rgba(219, 196, 196, 0.1),
+        rgba(0, 0, 0, 0.1)
+      ),
+      var(--bg-img);
+    background-repeat: var(--bg-img-repeat);
+    background-position: var(--bg-img-position);
+    background-size: var(--bg-img-size);
+    /* border-bottom: 10px solid;
+    border-image: linear-gradient(90deg, #ff7f50, #9c27b0, #1e90ff) 1;
+    border-radius: 8px; */
+  }
+  .home > .title,
+  .home > .buttons,
+  .home > .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bolder;
+  }
+  .question {
+    font-weight: bolder;
+    color: var(--text-primary);
+    font-family: 'Londrina Sketch';
+  }
+  .p1,.p2,.p3,.p4{
+    color: var(--text-secondary);
+  }
+  .block_others {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    flex: 1;
+  }
+  
+  .block_others p {
+    font-size: 1.1em;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .home > .title {
+    min-height: 42.5vh;
+    color: var(--text-primary);
+  }
+  .home > .buttons {
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 42.5vh;
+  }
+  
+  .title > .block1 {
+    font-size: 2.5em;
+    flex: 2;
+    font-family: 'Londrina solid';
+    color: var(--text-primary);
+  }
+
+  .home .buttons > button {
+    width: 30%;
+    display: flex;
+    height: 12vh;
+    font-family: 'Londrina Sketch';
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6em;
+   border: none;
+  }
+  
+  .home .buttons > button:hover{
+    border: solid thin var(--button-primary-bg-color);
+  }
+
+.home .head{
+  width: 100vw;
+  padding-left: 2vw;
+}

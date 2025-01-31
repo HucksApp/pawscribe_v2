@@ -1,0 +1,56 @@
+.item-divider{
+    background-color: var( --app-bar-bg);
+    margin: 0;
+}
+
+.file{
+    display: flex;
+    cursor: pointer;
+    /* text-align:f;  */
+    margin: 10px;
+}
+
+.filelist-container .file{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid red;
+    
+}
+
+.filegrid-container .file{
+    flex-direction: column;
+    border: solid green;
+}
+
+.file-img-icon{
+    width: 5em;
+    height: 5em;
+    padding: 0;
+    margin: 0;
+
+}
+
+.file-img-icon-cover{
+
+}
+
+.file-option-menu {
+    z-index: 2000;
+    background-color: var(--background-paper-light) !important;
+    color: var(--text-primary);
+    font-family: "Raleway";
+  }
+  
+  .file-option-menu-item{
+          display: flex;
+          align-items: center;
+          color: var(--text-secondary) !important;
+  }
+  
+  .file-option-menu-item:hover, .file-option-menu-item:hover .ant-dropdown-menu-title-content{
+          color: var(--band-color) !important;
+  }
+
+
+/* backgroundColor: "var(--background-paper)", color: "var(--text-secondary)"  */

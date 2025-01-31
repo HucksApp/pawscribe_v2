@@ -1,0 +1,63 @@
+
+
+.chart-container{
+    /* border:  solid red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-weight: 1000;
+    background-color: var(--background-default) !important;
+}
+
+.profile-container{
+     padding: 24px;
+     min-height: 100vh;
+}
+.profile-title{
+    font-family:'Londrina Sketch';
+    color:var(--text-primary) !important;
+    font-weight: 1000;
+    font-size: 2em !important; 
+}
+
+.chart-card-title{
+    font-family:'Londrina Solid';
+    color:var(--text-secondary) !important; 
+    font-weight: 1000;
+}
+.chart-pie-chart{
+    align-self: center;
+}
+
+.profile-email{
+    color:var(--text-secondary) !important;
+    font-weight: 1000;
+    font-family:'Londrina Solid';
+    font-size: 1.1em;
+}
+
+.chart-row{
+    margin-top: 3%;
+}
+
+.profile-title-container{
+
+}
+
+.chart-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: var(--app-bar-bg) !important;
+}
+
+.chart-card > *:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+
+/* ant-card ant-card-bordered css-dev-only-do-not-override-1x9op7x */

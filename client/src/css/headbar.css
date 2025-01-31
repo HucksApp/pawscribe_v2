@@ -1,0 +1,68 @@
+.headbar {
+  display: flex;
+  background-color: var(--app-bar-bg);
+  border-image: var(--footer-base-color);
+  border-image: var(--footer-base-color);
+  padding: 0.5% 1%;
+  border-top: 5px solid;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  z-index: 1000;
+}
+.headbar > *{
+  flex: 1;
+}
+
+
+.headbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+.logo-cover{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  padding-left: 1vw;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input{
+  width: 40%;
+  color: var(--text-secondary);
+}
+
+.icon-button{
+  border: none;
+  background-color: transparent;
+  color: var(--text-secondary);
+  transition: 0.3s ease-in-out; 
+}
+.icon-button.hidden{
+  transition: 0.3s ease-in-out; /* Smooth transition */
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* 
+button.icon-button:hover{
+  background-color: inherit;
+} */
+
+.pros-buttons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

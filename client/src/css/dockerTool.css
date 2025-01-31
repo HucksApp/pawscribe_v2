@@ -1,0 +1,21 @@
+.docker-tool-kit{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--background-paper);
+}
+
+
+.docker-tool-kit-run{
+    color: var(--text-primary);
+}
+
+.docker-tool-kit-run:hover{
+    color: var(--band-color);
+}
+
+.docker-tool-kit  h3{
+    font-family: 'Londrina solid'; 
+    color: var(--text-primary);
+    font-weight: 1000;
+}

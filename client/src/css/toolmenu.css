@@ -1,0 +1,131 @@
+.tool-menu{
+    display: flex;
+    min-width: 80%;
+    background-color: var(--app-bar-bg);
+    justify-content: space-evenly;
+
+    /* border: solid green; */
+    align-items: center;
+}
+
+.ant-menu-title-content:hover .button-icon{
+  fill: var(--band-color);
+  color: var(--band-color);
+}
+
+.float-button{
+    color: var(--text-primary);
+    z-index: 5000;
+    background-color:var(--band-color) !important;
+}
+.float-button:hover{
+  background-color: var( --button-primary-hvbg-color) !important;
+ }
+
+
+
+
+
+
+
+
+
+
+.tool-menu .ant-menu-item.ant-menu-item-selected{
+    background-color:var(--button-primary-hvbg-color) !important;
+  }
+
+
+.tool-menu-cover{
+    z-index: 1000;
+    display: flex;
+    background-color: var(--app-bar-bg);
+    border-image: var(--footer-base-color);
+    border-image: var(--footer-base-color);
+    padding: 1.5% 0.5%;
+    border-top: 5px solid;
+    justify-content: center;
+    align-items: center;
+             
+
+}
+.icon-button-slidder{
+    min-width: 5vw;
+}
+
+
+
+.tool-menu-select{
+    background-color: var(--background-default) !important;
+    min-width: 100px;
+}
+
+tool-menu-item{
+
+}
+
+.tool-menu-select-option{
+    background-color: var(--background-default);
+    color: var(--text-secondary) !important;
+}
+
+/* For the Select dropdown */
+.tool-menu-select .ant-select-selector {
+  background-color: var(--background-default) !important; /* Customize background */
+  color: var(--text-secondary) !important; /* Customize text color */
+  border-color: var(--background-default) !important; /* Customize border color */
+}
+
+/* For dropdown options */
+.tool-menu-select .ant-select-dropdown {
+  background-color: var(--background-default) !important;
+}
+/* 
+
+.tool-menu-select-option {
+  background-color: var(--background-default) !important;
+  color: var(--text-secondary) !important;
+} */
+
+.tool-menu-select .ant-select-item {
+    background-color: var(--background-default) !important;
+    color: var(--text-secondary) !important;
+  }
+
+/* To handle hover effects */
+/* .tool-menu-select-option:hover {
+  background-color: var(--button-secondary-bg-color) !important;
+  color: var(--text-primary) !important;
+} */
+
+
+/* Highlight hovered options */
+.tool-menu-select .ant-select-item-option-active {
+    background-color: var(--button-secondary-bg-color) !important;
+    color: var(--text-primary) !important;
+  }
+
+  /* Selected option */
+.tool-menu-select .ant-select-item-option-selected {
+    background-color: var(--button-primary-bg-color) !important;
+    color: var(--text-primary) !important;
+  }
+  .tool-menu .tool-menu-select .ant-select-dropdown {
+    background-color: var(--background-default) !important;
+  }
+  
+
+  .tool-menu-select .ant-select-item-option-selected {
+    background-color: var(--button-primary-bg-color) !important;
+    color: var(--text-primary) !important;
+  }
+
+
+
+
+/* Optional: Add focus state styles */
+.tool-menu-select .ant-select-selector:focus,
+.tool-menu-select .ant-select-selector:hover {
+    border-color: transparent !important;
+  background-color: var(--band-color) !important;
+}

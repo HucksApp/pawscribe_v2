@@ -1,0 +1,10 @@
+
+
+.rename-modal-title{
+    font-family:'Londrina solid';
+}
+
+
+.rename-modal-input{
+    color: var(--text-secondary);
+}

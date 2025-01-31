@@ -1,0 +1,17 @@
+.filelist-container, .filegrid-container{
+    z-index: 500 !important;
+    background-color: var(--app-bar-bg) !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 80%;
+    padding: 5% 3%;
+    max-width: 95%;
+    min-height: 60vh;
+    max-height: 90vh;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+}

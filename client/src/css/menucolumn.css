@@ -1,0 +1,31 @@
+.dashboard-menu{
+    min-width: 5%;
+    max-width: 12%;
+    font-weight: 1000;
+    color: var(--text-primary) !important;
+    font-family: 'Raleway';
+    background-color: var(--app-bar-bg);
+    position: absolute;
+    top: -10%;
+  
+}
+
+
+
+.ant-menu-title-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.dashboard-menu .ant-menu-item,
+.dashboard-menu .ant-menu-item-selected {
+    color: var(--text-primary) !important; /* Ensure higher specificity */
+}
+
+
+.dashboard-menu .ant-menu-item:hover {
+    color: var(--band-color) !important; /* Text color on hover */
+}

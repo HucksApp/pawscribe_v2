@@ -1,0 +1,8 @@
+
+.confimation-dialog-title{
+    font-family:'Londrina solid';
+
+}
+.confimation-dialog-message{
+    color: var(--text-secondary);
+}

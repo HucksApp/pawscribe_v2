@@ -1,0 +1,77 @@
+.pagination-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    font-weight: 1000;
+    padding-top: 0.5%;
+    top: 10%;
+    right: 0;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .pagination-wrapper.hidden{
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .pagination-container.hidden {
+    transform: translateY(-100%); /* Slide upward out of view */
+    opacity: 0; /* Optional: Fade out for a smoother effect */
+    pointer-events: none; /* Disable interaction when hidden */
+  }
+  
+  .pagination-comp {
+    padding: 1% 2%;
+    font-family: 'Raleway';
+    width: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--app-bar-bg);
+    color: var(--text-secondary);
+  }
+  
+  .toggle-button {
+    margin-top: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  .toggle-button:hover {
+    background-color: inherit;
+  }
+
+  .toggle-button>*>:hover {
+    background-color: inherit;
+    color: var(--button-tertiary-bg-color);
+
+  }
+
+.side-page-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-right: 1%;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+}
+.side-page-button > *{
+    padding: 2%;
+}
+  

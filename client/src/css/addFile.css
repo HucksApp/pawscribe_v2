@@ -1,0 +1,9 @@
+.addFile-modal{
+    font-family: 'Londrina Sketch'; 
+    color: var(--text-primary);
+    font-weight: 1000;
+}
+
+.ant-upload-text, .ant-upload-hint{
+    font-family: 'Londrina solid'; 
+}

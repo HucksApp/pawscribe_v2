@@ -1,0 +1,37 @@
+.git-tool-kit{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--background-paper);
+}
+
+.ant-collapse-content-box{
+    background: var(--background-paper);
+
+}
+
+.ant-radio-button-wrapper{
+    background-color: var( --button-primary-bg-color);
+    font-family: 'Londrina solid'; 
+    color: var(--text-primary);
+    font-weight: 1000;
+}
+
+.ant-radio-button {
+    background-color: var(--band-color);
+    color: var(--button-text-color);
+}
+
+.git-tool-kit-run{
+    color: var(--text-primary);
+}
+
+.git-tool-kit-run:hover{
+    color: var(--band-color);
+}
+
+.git-tool-kit  h3{
+    font-family: 'Londrina solid'; 
+    color: var(--text-primary);
+    font-weight: 1000;
+}
